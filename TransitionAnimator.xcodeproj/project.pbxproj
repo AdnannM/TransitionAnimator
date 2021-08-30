@@ -9,21 +9,35 @@
 /* Begin PBXBuildFile section */
 		A64EDCEE26DD06A500777DBE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A64EDCED26DD06A500777DBE /* AppDelegate.swift */; };
 		A64EDCF026DD06A500777DBE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A64EDCEF26DD06A500777DBE /* SceneDelegate.swift */; };
-		A64EDCF226DD06A500777DBE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A64EDCF126DD06A500777DBE /* ViewController.swift */; };
+		A64EDCF226DD06A500777DBE /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A64EDCF126DD06A500777DBE /* MenuViewController.swift */; };
 		A64EDCF526DD06A500777DBE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A64EDCF326DD06A500777DBE /* Main.storyboard */; };
 		A64EDCF726DD06A700777DBE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A64EDCF626DD06A700777DBE /* Assets.xcassets */; };
 		A64EDCFA26DD06A700777DBE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A64EDCF826DD06A700777DBE /* LaunchScreen.storyboard */; };
+		A64EDD0B26DD076300777DBE /* MenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A64EDD0A26DD076300777DBE /* MenuCell.swift */; };
+		A64EDD0E26DD077A00777DBE /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = A64EDD0D26DD077A00777DBE /* File.swift */; };
+		A64EDD1026DD0DFC00777DBE /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A64EDD0F26DD0DFC00777DBE /* DetailViewController.swift */; };
+		A64EDD1226DD158A00777DBE /* SlideDownTransitionAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A64EDD1126DD158A00777DBE /* SlideDownTransitionAnimator.swift */; };
+		A64EDD1426DD18A400777DBE /* SlideRightTransitionAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A64EDD1326DD18A400777DBE /* SlideRightTransitionAnimator.swift */; };
+		A64EDD1626DD1AD100777DBE /* PopTransitionAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A64EDD1526DD1AD100777DBE /* PopTransitionAnimator.swift */; };
+		A64EDD1826DD1C8A00777DBE /* RotateTransitionAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A64EDD1726DD1C8A00777DBE /* RotateTransitionAnimator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A64EDCEA26DD06A500777DBE /* TransitionAnimator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TransitionAnimator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A64EDCED26DD06A500777DBE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A64EDCEF26DD06A500777DBE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A64EDCF126DD06A500777DBE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A64EDCF126DD06A500777DBE /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		A64EDCF426DD06A500777DBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A64EDCF626DD06A700777DBE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A64EDCF926DD06A700777DBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A64EDCFB26DD06A700777DBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A64EDD0A26DD076300777DBE /* MenuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCell.swift; sourceTree = "<group>"; };
+		A64EDD0D26DD077A00777DBE /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		A64EDD0F26DD0DFC00777DBE /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		A64EDD1126DD158A00777DBE /* SlideDownTransitionAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideDownTransitionAnimator.swift; sourceTree = "<group>"; };
+		A64EDD1326DD18A400777DBE /* SlideRightTransitionAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideRightTransitionAnimator.swift; sourceTree = "<group>"; };
+		A64EDD1526DD1AD100777DBE /* PopTransitionAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopTransitionAnimator.swift; sourceTree = "<group>"; };
+		A64EDD1726DD1C8A00777DBE /* RotateTransitionAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotateTransitionAnimator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +70,102 @@
 		A64EDCEC26DD06A500777DBE /* TransitionAnimator */ = {
 			isa = PBXGroup;
 			children = (
-				A64EDCED26DD06A500777DBE /* AppDelegate.swift */,
-				A64EDCEF26DD06A500777DBE /* SceneDelegate.swift */,
-				A64EDCF126DD06A500777DBE /* ViewController.swift */,
-				A64EDCF326DD06A500777DBE /* Main.storyboard */,
-				A64EDCF626DD06A700777DBE /* Assets.xcassets */,
-				A64EDCF826DD06A700777DBE /* LaunchScreen.storyboard */,
+				A64EDD0C26DD076A00777DBE /* Model */,
+				A64EDD0526DD06CA00777DBE /* ViewAnimator */,
+				A64EDD0426DD06C300777DBE /* Custom Cell */,
+				A64EDD0326DD06BB00777DBE /* Controllers */,
+				A64EDD0226DD06B600777DBE /* Views */,
+				A64EDD0126DD06AC00777DBE /* SupportingFiles */,
 				A64EDCFB26DD06A700777DBE /* Info.plist */,
 			);
 			path = TransitionAnimator;
+			sourceTree = "<group>";
+		};
+		A64EDD0126DD06AC00777DBE /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				A64EDCED26DD06A500777DBE /* AppDelegate.swift */,
+				A64EDCEF26DD06A500777DBE /* SceneDelegate.swift */,
+				A64EDCF626DD06A700777DBE /* Assets.xcassets */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		A64EDD0226DD06B600777DBE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A64EDCF326DD06A500777DBE /* Main.storyboard */,
+				A64EDCF826DD06A700777DBE /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A64EDD0326DD06BB00777DBE /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A64EDCF126DD06A500777DBE /* MenuViewController.swift */,
+				A64EDD0F26DD0DFC00777DBE /* DetailViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		A64EDD0426DD06C300777DBE /* Custom Cell */ = {
+			isa = PBXGroup;
+			children = (
+				A64EDD0A26DD076300777DBE /* MenuCell.swift */,
+			);
+			path = "Custom Cell";
+			sourceTree = "<group>";
+		};
+		A64EDD0526DD06CA00777DBE /* ViewAnimator */ = {
+			isa = PBXGroup;
+			children = (
+				A64EDD0926DD06F500777DBE /* Rotate */,
+				A64EDD0826DD06EE00777DBE /* Pop */,
+				A64EDD0726DD06E500777DBE /* SlideRight */,
+				A64EDD0626DD06D900777DBE /* SlideDown */,
+			);
+			path = ViewAnimator;
+			sourceTree = "<group>";
+		};
+		A64EDD0626DD06D900777DBE /* SlideDown */ = {
+			isa = PBXGroup;
+			children = (
+				A64EDD1126DD158A00777DBE /* SlideDownTransitionAnimator.swift */,
+			);
+			path = SlideDown;
+			sourceTree = "<group>";
+		};
+		A64EDD0726DD06E500777DBE /* SlideRight */ = {
+			isa = PBXGroup;
+			children = (
+				A64EDD1326DD18A400777DBE /* SlideRightTransitionAnimator.swift */,
+			);
+			path = SlideRight;
+			sourceTree = "<group>";
+		};
+		A64EDD0826DD06EE00777DBE /* Pop */ = {
+			isa = PBXGroup;
+			children = (
+				A64EDD1526DD1AD100777DBE /* PopTransitionAnimator.swift */,
+			);
+			path = Pop;
+			sourceTree = "<group>";
+		};
+		A64EDD0926DD06F500777DBE /* Rotate */ = {
+			isa = PBXGroup;
+			children = (
+				A64EDD1726DD1C8A00777DBE /* RotateTransitionAnimator.swift */,
+			);
+			path = Rotate;
+			sourceTree = "<group>";
+		};
+		A64EDD0C26DD076A00777DBE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A64EDD0D26DD077A00777DBE /* File.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +238,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A64EDCF226DD06A500777DBE /* ViewController.swift in Sources */,
+				A64EDD0E26DD077A00777DBE /* File.swift in Sources */,
+				A64EDCF226DD06A500777DBE /* MenuViewController.swift in Sources */,
+				A64EDD1426DD18A400777DBE /* SlideRightTransitionAnimator.swift in Sources */,
+				A64EDD1626DD1AD100777DBE /* PopTransitionAnimator.swift in Sources */,
+				A64EDD1826DD1C8A00777DBE /* RotateTransitionAnimator.swift in Sources */,
+				A64EDD1226DD158A00777DBE /* SlideDownTransitionAnimator.swift in Sources */,
 				A64EDCEE26DD06A500777DBE /* AppDelegate.swift in Sources */,
+				A64EDD1026DD0DFC00777DBE /* DetailViewController.swift in Sources */,
+				A64EDD0B26DD076300777DBE /* MenuCell.swift in Sources */,
 				A64EDCF026DD06A500777DBE /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
